@@ -44,11 +44,11 @@ The goal here was to build a neural network model that could predict whether fun
 | Model Version          | Accuracy   |
 |------------------------|------------|
 | Baseline               | 68.66%     |
-| Optimization Attempt 1 | 73.32%     |
+| Optimization Attempt 1 | 73.32% ✅  |
 | Optimization Attempt 2 | 62.65%     |
-| Optimization Attempt 3 | **69.80%** ✅ |
+| Optimization Attempt 3 | **69.80%** |
 
-Attempt 3 ended up performing the best, even though it didn’t break 75%. It kept the same layer structure as the baseline but added small adjustments that helped squeeze out better accuracy. Final model was saved as `AlphabetSoupCharity_Optimization3.h5`.
+Attempt 1 ended up performing the best, even though it didn’t break 75%. It kept the same layer structure as the baseline but added small adjustments that helped squeeze out better accuracy. Final model was saved as `AlphabetSoupCharity_Optimization1.h5`.
 
 ---
 
